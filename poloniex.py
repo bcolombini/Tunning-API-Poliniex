@@ -67,7 +67,7 @@ class poloniex:
 
     # Returns complete your balances.
     # Inputs:
-    # For fefault return only exchange account, but if you want return all account, set account parameter 'all' 
+    # For default return only exchange account, but if you want return all account, set account parameter 'all' 
     # Outputs: 
     # {"LTC":{"available":"5.015","onOrders":"1.0025","btcValue":"0.078"},"NXT:{...} ... }
     def returnCompleteBalances(self,account = 'exchange'):
